@@ -3,5 +3,5 @@
 
 for (let x = 1; x <= 10; x++) {
 
-    document.write(x + ' ' + '<div>Див</div>');
+    document.write(<div>Див</div>);
 }
