@@ -60,7 +60,7 @@ let x = 0
 document.write('<div class="product-card">');
 while (x < products.length) {
 
-    document.write(`<h3 class="product-title"> ${products[x].title}.  ${products[x].price}  UAH</h3>`);
+    document.write(`<h3 class="product-title"> ${products[x].title}.  ${products[x].price} - UAH</h3>`);
     x++;
 
     document.write('</ul>');
