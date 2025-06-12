@@ -5,11 +5,11 @@
     margin: 0 auto; /* Центрирование контейнера */
 }
 
-.address-block {
-    width: 50%; /* Ширина блока (можно изменить) */
-    height: 100px;
-    background-color: #f0f0f0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+/*.address-block {*/
+/*    width: 50%; !* Ширина блока (можно изменить) *!*/
+/*    height: 100px;*/
+/*    background-color: #f0f0f0;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/
