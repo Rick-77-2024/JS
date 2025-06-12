@@ -59,23 +59,16 @@ let products = [
 let x = 0
 document.write('<div class="product-card">');
 while (x < products.length) {
-    document.write('<h3 class="product-title"> ' + products[x].title + ' </h3>');
-    document.write('<h3 class="product-title"> ' + products[x].price + ' </h3>');
+
+    document.write(`<h3 class="product-title"> ${products[x].title}.  ${products[x].price}  UAH</h3>`);
     x++;
 
     document.write('</ul>');
-    document.write('<img src="IMAGE" alt="" class="product-image">');
+    document.write('<img src="${products[x].image}" alt="" class="product-image">');
 }
 document.write('</div>');
 
-// let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
-// let x = 0
-// document.write('<ul>');
-// while ( x < listOfItems.length ) {
-//     document.write('<li> ' + listOfItems[x] + ' </li>');
-//     x++;
-// }
-// document.write('</ul>');
+
 
 
 
