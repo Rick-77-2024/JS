@@ -252,21 +252,21 @@ let usersList = [
     }
 ];
 
-document.write(`<h3 style="color: red"> Пользователи </h3>`);
-document.write(`<div class=”users-box”>`);
+// document.write(`<h3 style="color: red"> Users </h3>`);
+document.write(`<div class="users-box">`);
 
 for (const userList of usersList) {
     if (userList.name) {
-        document.write(`<div class=”user-block”>`);
+        document.write(`<div class="user-block">`);
             document.write(`<h2> ${userList.id} - ${userList.name} - ${userList.username} </h2>`);
             document.write(`<h3> ${userList.email} - ${userList.phone} </h3>`);
-        document.write(`</div>`);
 
-        document.write(`<div class=”address-block>`);
-            document.write(`<p> ${userList.address.city} </p>`);
-            document.write(`<p> ${userList.address.street} </p>`);
-            document.write(`<p> ${userList.address.suite} </p>`);
-            document.write(`<p> ${userList.address.zipcode} - ${userList.address.street} </p>`);
+            document.write(`<div class="address-block">`);
+                document.write(`<p> ${userList.address.city} </p>`);
+                document.write(`<p> ${userList.address.street} </p>`);
+                document.write(`<p> ${userList.address.suite} </p>`);
+                document.write(`<p> ${userList.address.zipcode} - ${userList.address.street} </p>`);
+            document.write(`</div>`);
         document.write(`</div>`);
     }
 }
