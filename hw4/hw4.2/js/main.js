@@ -1,7 +1,8 @@
-// #TYj7ncx
-// - За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом і індексом всередині
+// #ETGAxbEn8l
+// - створити функцію яка обчислює та повертає площу кола з радіусом r
 
-for (let x = 0; x <= 10; x++) {
-
-    document.write('<div>'+ x +'</div>');
+function getRadius(radius) {
+    return 3.14 * radius * radius;
 }
+
+console.log(getRadius(5));
