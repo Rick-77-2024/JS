@@ -1,7 +1,10 @@
-// #y7crMeFwHcS
-// - За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом всередині
+// #I2XsG6f
+// - створити функцію яка обчислює та повертає площу прямокутника зі сторонами а і б
 
-for (let x = 1; x <= 10; x++) {
+function areaOfTriangle(a, b) {
+    return a * b;
 
-    document.write('<div>Див</div>' + x);
 }
+
+let s = areaOfTriangle(10, 20);
+console.log('areaOfTriangle = ' + s);
