@@ -10,16 +10,3 @@ function TextUlLiFor(text, count) {
 }
     TextUlLiFor("Text LI", 5);
 
-
-// function createUl(text, ind) {
-//     const ul = document.createElement("ul");
-//     for (let i = 0; i < ind; ++i) {
-//         const li = document.createElement("li");
-//         li.textContent = text;
-//         ul.append(li)
-//     }
-//
-//     const wp = document.getElementById('wrapper');
-//     wp.append(ul);
-// }
-// createUl('hello', 5)
