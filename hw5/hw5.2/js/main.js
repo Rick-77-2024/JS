@@ -1,9 +1,7 @@
-// #I2XsG6f
-// - створити функцію яка обчислює та повертає площу прямокутника зі сторонами а і б
+// #ETGAxbEn8l
+// - створити функцію яка обчислює та повертає площу кола з радіусом r
 
-const rectangle = (a, b) => a * b;
 
-const sideA = 5;
-const sideB = 10;
-const area = rectangle(sideA, sideB);
-console.log(area);
+const getRadius = (radius) => 3.14 * radius * radius;
+
+console.log(getRadius(5));
