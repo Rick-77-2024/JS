@@ -7,6 +7,5 @@ function printArrayElements(arr) {
     }
 }
 
-// Пример использования:
 const arr = [10, true, 'false', 3.14, 20, null];
 printArrayElements(arr);
