@@ -5,10 +5,8 @@
 let str1 = "hello world";
 let str2 = "lorem ipsum";
 let str3 = "javascript is cool";
-let length1 = str1.length;
-let length2 = str2.length;
-let length3 = str3.length;
-console.log(length1);
-console.log(length2);
-console.log(length3);
+
+console.log(str1.length);
+console.log(str2.length);
+console.log(str3.length);
 
